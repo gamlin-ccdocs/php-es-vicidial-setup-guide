@@ -1,0 +1,31 @@
+{
+    "name": "vicistack/es-vicidial-setup-guide",
+    "description": "La Guia Completa de Instalacion de VICIdial (2026): De Servidor Nuevo a Primera Llamada en Menos de 2 Horas",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "vicidial",
+        "setup",
+        "guide"
+    ],
+    "homepage": "https://vicistack.com/blog/es-vicidial-setup-guide/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\EsVicidialSetupGuide\\": "src/"
+        }
+    }
+}
